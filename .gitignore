@@ -1,0 +1,66 @@
+# Python и виртуальное окружение
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# База данных SQLite
+database.db
+
+# Файлы IDE и редакторов
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Логи и временные файлы
+*.log
+*.log.*
+*.tmp
+*.bak
+*.swp
+*~
+
+# Зависимости Python
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+dist/
+build/
+*.egg
+*.egg-info/
+*.eggs/
+*.whl
+
+# Файлы окружения
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Документация и сборки
+docs/_build/
+*.ipynb_checkpoints/
+
+# Тестовые файлы
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+htmlcov/
+.pytest_cache/
